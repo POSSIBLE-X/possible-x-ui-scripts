@@ -1,2 +1,3 @@
 # possible-x-ui-scripts
-Scripts for REST access to backend.
+
+This repository contains scripts for accessing backend systems. So these scripts are UI scripts which can be used instead of a graphical UI.
