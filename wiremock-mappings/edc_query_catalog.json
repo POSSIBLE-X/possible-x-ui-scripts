@@ -1,0 +1,65 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/v2/catalog/request"
+  },
+
+  "response": {
+    "status": 200,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "jsonBody": 
+		{
+			"@id": "3795a797-c4a1-45e9-b077-f6a28c9c54d7",
+			"@type": "dcat:Catalog",
+			"dcat:dataset": {
+				"@id": "assetId",
+				"@type": "dcat:Dataset",
+				"odrl:hasPolicy": {
+					"@id": "Y29udHJhY3REZWZpbml0aW9uSWRfOGRkMzgzMDgtY2ZhYS00NWRjLTlhNzItOGUwNTEzNTRjNDg3:YXNzZXRJZF82MTMzMTE5OC0zYzFkLTRlMjUtODM1YS00N2U4ODkzMzI5MTg=:OGFmOThjZDQtNDFiNi00NTIxLWE3NGYtMTJjMjRjODYwM2Nh",
+					"@type": "odrl:Set",
+					"odrl:permission": [
+						{
+							"odrl:target": "assetId_61331198-3c1d-4e25-835a-47e889332918",
+							"odrl:action": {
+								"odrl:type": "http://www.w3.org/ns/odrl/2/use"
+							}
+						},
+						{
+							"odrl:target": "assetId_61331198-3c1d-4e25-835a-47e889332918",
+							"odrl:action": {
+								"odrl:type": "http://www.w3.org/ns/odrl/2/transfer"
+							}
+						}
+					],
+					"odrl:prohibition": [],
+					"odrl:obligation": [],
+					"odrl:target": {
+						"@id": "assetId_61331198-3c1d-4e25-835a-47e889332918"
+					}
+				},
+				"dcat:distribution": [],
+				"name": "offername",
+				"description": "description",
+				"id": "assetId",
+				"contenttype": "application/json"
+			},
+			"dcat:service": {
+				"@id": "43522515-bdd3-49d8-ac5c-bd8915e3c71c",
+				"@type": "dcat:DataService",
+				"dct:terms": "connector",
+				"dct:endpointUrl": "https://provider.edc.dev.possible-x.de/protocol"
+			},
+			"participantId": "provider",
+			"@context": {
+				"@vocab": "https://w3id.org/edc/v0.0.1/ns/",
+				"edc": "https://w3id.org/edc/v0.0.1/ns/",
+				"dcat": "https://www.w3.org/ns/dcat/",
+				"dct": "https://purl.org/dc/terms/",
+				"odrl": "http://www.w3.org/ns/odrl/2/",
+				"dspace": "https://w3id.org/dspace/v0.8/"
+			}
+		}
+  }
+}

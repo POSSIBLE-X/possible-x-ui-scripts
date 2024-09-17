@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/v2/contractnegotiations"
+  },
+
+  "response": {
+    "status": 200,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "jsonBody": 
+		{
+			"@id": "negotiationId",
+			"@type": "the type",
+			"createdAt": 1234,
+			"@context": {}
+		}
+  }
+}

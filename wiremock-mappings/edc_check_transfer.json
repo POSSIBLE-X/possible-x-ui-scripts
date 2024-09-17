@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v2/transferprocesses/transferId"
+  },
+
+  "response": {
+    "status": 200,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "jsonBody": 
+		{
+			"dataDestination": {
+				"bucketName": "bucketName",
+				"storage": "storage"
+			},
+			"@type": "the type",
+			"@id": "transferId",
+			"@context": {},
+			"stateTimestamp": "stateTimestamp",
+			"type": "type",
+			"callbackAddresses": [],
+			"dataRequest": {
+				"type": "type",
+				"@id": "id",
+				"assetId": "assetId",
+				"contractId": "contractId",
+				"connectorId": "connectorId"
+			},
+			"state": "COMPLETED"
+		}
+  }
+}

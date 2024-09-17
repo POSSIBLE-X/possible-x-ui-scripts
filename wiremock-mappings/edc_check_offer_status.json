@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v2/contractnegotiations/negotiationId"
+  },
+
+  "response": {
+    "status": 200,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "jsonBody": 
+		{
+			"@id": "negotiationId",
+			"@type": "the type",
+			"type": "the other type",
+			"protocol": "protocol",
+			"counterPartyAddress": "counterPartyAddress",
+			"callbackAddresses": [],
+			"contractAgreementId": "contractAgreementId",
+			"@context": {},
+			"state": "FINALIZED"
+		}
+  }
+}

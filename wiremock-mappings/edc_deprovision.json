@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/v2/transferprocesses/transferId/deprovision"
+  },
+
+  "response": {
+    "status": 200,
+    "headers": {
+        "Content-Type": "application/json"
+    }
+  }
+}
